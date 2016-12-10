@@ -1,0 +1,1 @@
+var zero_Crypt="fH3TTZCoJ8QdabrM+YC4Z48U3cnd8yDaPkaN0+XIAQo=";a=a/f;b=b/f;c=c/f;d=d/f;vf = 'rtmp://' + a + '.' + b + '.' + c + '.' + d + v_part;
