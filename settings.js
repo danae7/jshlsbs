@@ -76,7 +76,6 @@ $("#chatsettings").append("<ul id='settingstitle' class='settingstitle'>Channel 
 $("#chatsettings").append("<div class='Toggles'><input type='checkbox' id='tstog' class='Toggle-checkbox'><label for='tstog' class='Toggle-label'>Timestamps</label></div>");
 //$("#chatsettings").append("<div class='Toggles'><input type='checkbox' id='whisptog' class='Toggle-checkbox'><label for='whisptog' class='Toggle-label'>Channel messages</label></div>");
 $("#chatsettings").append("<div class='Toggles'><input type='checkbox' id='Avatog' class='Toggle-checkbox'><label for='Avatog' class='Toggle-label'>Chat Avatars</label></div>");
-$("#chatsettings").append("<div class='Toggles'><input type='checkbox' id='Maintog' class='Toggle-checkbox'><label for='Maintog' class='Toggle-label'>Video</label></div>");
 $("#chatsettings").append("<div class='Toggles'><input type='checkbox' id='Motdtog' class='Toggle-checkbox'><label for='Motdtog' class='Toggle-label'>MOTD</label></div>");
 //$("#chatsettings").append("<div class='Toggles'><input type='checkbox' id='Contog' class='Toggle-checkbox'><label for='Contog' class='Toggle-label'>Controls</label></div>");
 
@@ -88,9 +87,6 @@ $("#whisptog").click(function() {
 });
 $("#Avatog").click(function() {
   $(chatavatar).toggleClass("hide");
-});
-$("#Maintog").click(function() {
-  $(main).toggleClass("hide");
 });
 $("#Motdtog").click(function() {
   $(motdwrap).toggleClass("hide");
